@@ -11,5 +11,5 @@ spec:
     - name: infrastructure
   sourceRef:
     kind: GitRepository
-    name: k3s-gitops
+    name: flux-system
     namespace: flux-system

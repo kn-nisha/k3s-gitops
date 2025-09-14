@@ -1,0 +1,14 @@
+externalDatabase:
+  host: mysql.wordpress.svc.cluster.local
+  user: nisha
+  password: nishapass
+  database: wordpress
+
+wordpressUsername: nishawordpress
+wordpressPassword: nishapass
+wordpressEmail: nisha@app.local 
+
+ingress:
+  enabled: true
+  hostname: app.local
+

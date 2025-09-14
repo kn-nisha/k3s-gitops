@@ -3,7 +3,3 @@ kind: Kustomization
 resources:
   - mysql
   - wordpress
-decryption:
-  provider: sops
-  secretRef:
-    name: sops-age
